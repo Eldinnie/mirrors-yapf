@@ -3,5 +3,5 @@
     entry: yapf
     language: python
     files: \.py$
-    args: [-i, -d, --style='{based_on_style: chromium, COLUMN_LIMIT: 120}']
+    args: [-i, -d, --style={based_on_style: chromium, COLUMN_LIMIT: 120}]
 
